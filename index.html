@@ -16,20 +16,9 @@
     <header class="max-w-7xl mx-auto relative">
             <nav>
                 <!-- nav section -->
-                <div class="navbar bg-red-500 rounded-[600px] my-12 px-12 py-10 ">
+                <div class="navbar relative bg-red-500 rounded-[600px] my-8 lg:my-12 px-8 lg:px-12 py-6 lg:py-10 ">
                     <div class="navbar-start">
-                      <div class="dropdown">
-                        <label tabindex="0" class="btn btn-ghost lg:hidden">
-                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                        </label>
-                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                          <li><a>Home</a></li>
-                          <li><a>About Us</a></li>
-                          <li><a>Shop</a></li>
-                          <li><a>All Fruite</a></li>
-                        </ul>
-                      </div>
-                      <div class="hidden...">
+                      <div class="hidden lg:flex justify-between">
                         
                         <a class="btn btn-ghost normal-case text-xl text-white">Home</a>
                         <a class="btn btn-ghost normal-case text-xl text-white">About Us</a>
@@ -37,21 +26,32 @@
                         <a class="btn btn-ghost normal-case text-xl text-white">All Fruite</a>
                       </div>
                     </div>
-                    <div class="navbar-center hidden lg:flex space-x-3">
+                    <div class="navber-start absolute lg:navber-center">
                       <div>
                         <img src="./images/logo.png" alt="">
                       </div>
                       <div>
-                        <p class="text-4xl font-bold text-white">Fruit Burst</p>
+                        <p class="text-2xl font-semibold lg:text-4xl lg:font-bold text-white">Fruit Burst</p>
                       </div>
                     </div>
                     <div class="navbar-end">
-                        <div class="form-control flex flex-row items-center relative">
+                        <div class="form-control hidden lg:flex flex-row items-center relative">
                             <input type="text" placeholder="Search here" class="input input-bordered w-24 md:w-auto lg:w-96 h-16 rounded-3xl" />
                             <div class="absolute right-7">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </div>
                         </div>
+                    </div>
+                    <div class="dropdown">
+                      <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                      </label>
+                      <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruite</a></li>
+                      </ul>
                     </div>
                   </div>
             </nav>       
@@ -62,9 +62,9 @@
                     <div class="hero-overlay bg-opacity-60"></div>
                     <div class="hero-content text-center text-neutral-content">
                         <div class="max-w-md">
-                            <h1 class="mb-5 text-7xl font-bold">Exotic tastes at your doorstep</h1>            
+                            <h1 class="text-3xl font-semibold  md:mb-5 md:text-5xl md:font-bold">Exotic tastes at your doorstep</h1>            
                             <p class="mb-5 text-base font-medium">We supply highly quality organic products</p>
-                            <button class="btn bg-red-500 text-white text-xl font-bold border-0">Shop Now</button>
+                            <button class="btn text-lg font-semibold md:btn bg-red-500 text-white md:text-xl md:font-bold border-0">Shop Now</button>
                         </div>
                     </div>
                 </div>
@@ -78,9 +78,9 @@
                     <div class="hero-overlay bg-opacity-60"></div>
                     <div class="hero-content text-center text-neutral-content">
                         <div class="max-w-md">
-                            <h1 class="mb-5 text-7xl font-bold">Exotic tastes at your doorstep</h1>            
+                            <h1 class="text-3xl font-semibold  md:mb-5 md:text-5xl md:font-bold">Exotic tastes at your doorstep</h1>            
                             <p class="mb-5">We supply highly quality organic products</p>
-                            <button class="btn bg-red-500 text-white text-xl font-bold border-0">Shop Now</button>
+                            <button class="btn text-lg font-semibold md:btn bg-red-500 text-white md:text-xl md:font-bold border-0">Shop Now</button>
                         </div>
                     </div>
                 </div>
@@ -94,9 +94,9 @@
                     <div class="hero-overlay bg-opacity-60"></div>
                     <div class="hero-content text-center text-neutral-content">
                         <div class="max-w-md">
-                            <h1 class="mb-5 text-7xl font-bold">Exotic tastes at your doorstep</h1>            
+                            <h1 class="text-3xl font-semibold  md:mb-5 md:text-5xl md:font-bold">Exotic tastes at your doorstep</h1>            
                             <p class="mb-5">We supply highly quality organic products</p>
-                            <button class="btn bg-red-500 text-white text-xl font-bold border-0">Shop Now</button>
+                            <button class="btn text-lg font-semibold md:btn bg-red-500 text-white md:text-xl md:font-bold border-0">Shop Now</button>
                         </div>
                     </div>
                 </div>
@@ -110,9 +110,9 @@
                     <div class="hero-overlay bg-opacity-60"></div>
                     <div class="hero-content text-center text-neutral-content">
                         <div class="max-w-md">
-                            <h1 class="mb-5 text-7xl font-bold">Exotic tastes at your doorstep</h1>            
+                            <h1 class="text-3xl font-semibold  md:mb-5 md:text-5xl md:font-bold">Exotic tastes at your doorstep</h1>            
                             <p class="mb-5">We supply highly quality organic products</p>
-                            <button class="btn bg-red-500 text-white text-xl font-bold border-0">Shop Now</button>
+                            <button class="btn text-lg font-semibold md:btn bg-red-500 text-white md:text-xl md:font-bold border-0">Shop Now</button>
                         </div>
                     </div>
 
@@ -123,7 +123,7 @@
               </div>
             </div>
         </div>
-        <section class="grid grid-cols-5 bg-white shadow-slate-400 shadow-2xl w-3/4 mx-auto p-12 justify-center rounded-xl relative -top-28">
+        <section class="hidden lg:grid grid-cols-5 bg-white shadow-slate-400 shadow-2xl w-3/4 mx-auto p-12 justify-center rounded-xl relative -top-28">
           <div>
             <img src="images/fruit1.png" alt="">
             <p class="text-xl font-medium text-center">Strawberry</p>
@@ -150,41 +150,41 @@
     <!-- main part -->
     <main class="max-w-7xl mx-auto">
         <!-- deal of day section -->
-        <section class="my-24 grid grid-cols-1 md:grid-cols-2 items-center justify-between">
-            <div class="flex-1">
-                <h2 class="text-5xl font-extrabold">Deal of the day</h2>
-                <p class="text-base font-medium my-6">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        <section class="my-24 grid grid-cols-1 md:grid-cols-2 md:items-center justify-center md:justify-between">
+            <div class="flex-1 ">
+                <h2 class="text-2xl font-semibold text-center lg:text-4xl lg:font-bold">Deal of the day</h2>
+                <p class="text-base text-center lg:font-medium my-6">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
-            <div class="flex justify-end gap-10 flex-1">
+            <div class="flex justify-center lg:justify-end gap-x-5 lg:gap-x-9 flex-1">
                 <div>
-                    <h1 class="text-5xl font-extrabold">29</h1>
-                    <p class="text-base font-medium">Days</p>
+                    <h1 class="text-2xl lg:text-xl font-medium lg:font-extrabold">29</h1>
+                    <p class="text-base font-medium text-center">Days</p>
                 </div>
-                <div class="grid grid-cols-1 h-6 my-auto">
+                <div class="grid grid-cols-1 h-4 lg:h-6 my-auto">
                     <span class="text-[3px]"><i class="fa-solid fa-circle"></i></span>
                     <span class="text-[3px]"><i class="fa-solid fa-circle"></i></span>
                     <span class="text-[3px]"><i class="fa-solid fa-circle"></i></span>
                 </div>
                 <div>
-                    <h1 class="text-5xl font-extrabold">15</h1>
+                    <h1 class="text-2xl font-medium lg:text-xl lg:font-extrabold">15</h1>
                     <p class="text-base font-medium">hours</p>
                 </div>
-                <div class="grid grid-cols-1 h-6 my-auto">
+                <div class="grid grid-cols-1 h-4 lg:h-6 my-auto">
                     <span class="text-[3px]"><i class="fa-solid fa-circle"></i></span>
                     <span class="text-[3px]"><i class="fa-solid fa-circle"></i></span>
                     <span class="text-[3px]"><i class="fa-solid fa-circle"></i></span>
                 </div>
                 <div>
-                    <h1 class="text-5xl font-extrabold">25</h1>
+                    <h1 class="text-2xl font-medium lg:text-xl lg:font-extrabold">25</h1>
                     <p class="text-base font-medium">minutes</p>
                 </div>
-                <div class="grid grid-cols-1 h-6 my-auto">
+                <div class="grid grid-cols-1 h-4 lg:h-6 my-auto">
                     <span class="text-[3px]"><i class="fa-solid fa-circle"></i></span>
                     <span class="text-[3px]"><i class="fa-solid fa-circle"></i></span>
                     <span class="text-[3px]"><i class="fa-solid fa-circle"></i></span>
                 </div>
                 <div>
-                    <h1 class="text-5xl font-extrabold">08</h1>
+                    <h1 class="text-2xl font-medium lg:text-xl lg:font-extrabold">08</h1>
                     <p class="text-base font-medium">seconds</p>
                 </div>
 
@@ -353,7 +353,7 @@
             </div>
             <div class="card bg-base-100 shadow-xl">
                 <figure class="px-10 pt-10">
-                  <img src="images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                  <img src="images/fruit9.png" alt="Shoes" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
                   <h2 class="card-title text-2xl font-bold">12.90$ - 18.85$</h2>
@@ -377,7 +377,7 @@
                     <form method="dialog" class="modal-box">
                       <div class="card bg-base-100 shadow-xl">
                         <figure class="px-10 pt-10">
-                          <img src="images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                          <img src="images/fruit9.png" alt="Shoes" class="rounded-xl" />
                         </figure>
                         <div class="card-body items-center text-center">
                           <p class="text-4xl font-extrabold">Banana</p>
@@ -487,7 +487,7 @@
           <h1 class="text-5xl font-extrabold">Why Choose Us</h1>
           <p class="text-base font-medium my-7">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
          </div>
-          <div class="grid grid-cols-3 gap-x-9">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-x-9">
             <div class="grid grid-cols-1">
               <div class="flex items-center gap-x-4">
                 <div>
